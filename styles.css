@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    font-family: 'Barlow Condensed', sans-serif;
+    list-style-type: none;
+
+}
+/*******************************************************************
+                                LOGO
+********************************************************************/
+
+#logo {
+    float: left; 
+    margin-left: 20px;
+}
+
+
+/********************************************************************
+                            NAVIGATION BAR
+*********************************************************************/
+#nav-container {
+    padding: 20px 0px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#navMenu {
+    float: right;
+    margin: 30px 100px 0 0;
+}
+
+.nav-links {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 1.25em;
+    text-decoration: none;  
+}
+
+#navMenu li {
+    display: inline-block;
+    margin: 0 0 0 0;
+}
+/**********************************************************
+                        TITLE SECTION
+***********************************************************/
+#section-2 {
+    padding: 50px 0px;
+}
+
+#title-container {
+    text-align: center;
+}
+
+#title-container h1 {
+    font-size: 3.50em;
+    font-family: 'Courgette', cursive;
+    color: red;
+}
+
+#title-container h2 {
+    font-size: 2.0em;
+    margin-top: 5px;
+    font-family: 'Courgette', cursive;
+    color: #fff;
+}
+
+#section-2 p {
+    text-align: center;
+    margin: 50px 33%;
+    font-size: 1.5em;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+}
+
+#section-1 {
+	background-color: #2b2e35;
+}
+/*****************************************************************************
+                            SERVICES SECTION
+*****************************************************************************/
+#servicesSection {
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 50px 0 ;
+    background-color: #d3d3d3;
+}
+
+#services-container {
+    margin: 0 10%;
+    text-align: center;
+}
+
+.services {
+    max-width: 22%;
+    text-align: center;
+    display: inline-block;
+    padding: 0 30px 0 0;
+}
+
+
+.service-image {
+    height: 75px;
+    width: 75px;
+}
+
+
+
+#servicesSection h2 {
+    font-size: 1.75em;
+    padding: 10px 0;
+}
+
+#servicesSection h3 {
+    color: #ff0000;
+    font-size: 1.30em;
+    padding: 5px 0;
+}
+
+#servicesSection p {
+    font-size: 1.15em;
+    padding-top: 5px;
+}
+
+.services-button {
+    margin: 10px 0 0 0;
+    background-color: #5e6470;
+    font-size: 1.8em;
+    color: #fff;
+    padding: 5px;
+}
+/*****************************************************************************
+                           FEATURED WORKS
+*****************************************************************************/
+#featuredWorks {
+	background-color: #a3a3a3;
+    padding-bottom: 50px;
+}
+
+.featuredWorks-list {
+    display: inline-block;
+    margin: 0 -50px 20px 0;
+}
+
+.featuredWorks-list img {
+    border-radius: 100%;
+    max-width: 100%;
+}
+
+#featuredWorks-container {
+    text-align: center;
+    margin: 0 auto;
+        max-width: 1450px;
+   
+}
+
+.play-button {
+    height: 75px;
+    z-index: 1;
+    right: 50%;
+    top: -100px;
+    position:relative;   
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;    
+}
+
+#featuredWorksTitle {
+    font-size: 2.5em;
+    padding-right: 600px
+}
+#featuredWorksTitle, #more-works {
+	display: inline-block;
+    margin: 50px;
+}
+.more-works {
+    background-color: #5e6470;
+    color: #fff;
+    font-size: 1.8em;
+    padding: 5px;
+}
+#magnifyingGlass {
+    height: 25px;
+    
+}
+
+
+/*********************************************************************
+            WHY ME?, WHAT'S NEW, SHORTLY ABOUT ME
+**********************************************************************/
+#columns-wrap {
+    margin: 50px 0 0 100px;
+}
+.featured-columns {
+    text-align: left;
+    display: inline-block;
+}
+
+.column-title { 
+    font-size: 2.5em; 
+    margin-bottom: 10px;
+}
+
+.subTitle {
+   margin-bottom: 5px;
+    max-width: 100%;
+    color: #ff0000;
+    font-size: 1.30em;
+    
+}
+
+.featured-columns p {
+    font-size: 1.15em;
+}
+
+#whyMeColumn {
+    max-width: 270px;
+    
+}
+#whyMeColumn p {
+    max-width: 100%;
+}
+
+#whatsNewColumn {
+    max-width: 300px;
+    margin-left: 30px;
+}
+
+#whatsNewColumn .column-title {
+    margin-bottom: 10px;
+}
+
+.event-details, .date-container {
+    display: inline-block;
+}
+
+.event-details {
+    max-width: 60%;
+    margin-left: 15px;
+}
+
+.date-container {
+    text-align: center;
+}
+
+.dateNumber {
+    font-size: 2.5em;
+}
+
+.event2-container {
+    margin: 40px 0 0 0;
+}
+
+#eagles {
+    height: 150px;
+    margin-right: 30px;
+}
+
+#eagles, .subtitle-wrap {
+    display: inline-block ;
+}
+.subtitle-wrap {
+    margin: 0 0 0 10px;
+    max-width: 400px;
+}
+
+#shortlyAboutMeColumn p {
+    max-width: 600px;
+}
+
+#shortlyAboutMeColumn .column-title {
+    margin: 0 0 20px 0;
+}
+
+
+
+
+/*****************************************************************************
+                            JQUERY UI
+*****************************************************************************/
+
+.redBackground {
+    background-color: #ff0000;
+}
+
+.redFont {
+    color: red;
+}
+
+.stretch-image {
+    width: 125px;
+}
+.hide-playButton {
+   opacity: 0;
+}
+.transition {
+    -webkit-transform: scale(3.0); 
+    -moz-transform: scale(3.0);
+    -o-transform: scale(3.0);
+    transform: scale(3.0);    
+}
+
+.hide-element {
+    opacity: 0;
+}
+.show-element {
+    opacity: 1;
+}

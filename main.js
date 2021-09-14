@@ -89,7 +89,9 @@ $(document).ready(()=>{
          $('html,body').animate({scrollTop: $("#featuredWorks-container").offset().top},'slow');
     });    
     
-    
+    $('#home').click(function() {
+         $('html,body').animate({scrollTop: $("#section-1").offset().top},'slow');
+    }); 
     
     
 });

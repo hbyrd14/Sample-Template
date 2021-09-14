@@ -78,6 +78,17 @@ $(document).ready(()=>{
     });
     
     
+    /******************************
+            SCROLL ON CLICK
+    *******************************/
+    $('#services').click(function() {
+         $('html,body').animate({scrollTop: $("#servicesSection").offset().top},'slow');
+    });
+    
+    $('#works').click(function() {
+         $('html,body').animate({scrollTop: $("#featuredWorks-container").offset().top},'slow');
+    });    
+    
     
     
     
